@@ -1,0 +1,99 @@
+# NAME: Emby
+# 关键字匹配
+HOST-KEYWORD, emby, Emby
+
+# 流媒体终点站服务器
+HOST,pub1.emby.wtf, Emby
+HOST,pub1alt.emby.wtf, Emby
+HOST,pub1sg.emby.wtf, Emby
+HOST,pub1sgalt.emby.wtf, Emby
+HOST,pub1back1.emby.wtf, Emby
+HOST,pub1back2.emby.wtf, Emby
+HOST,pub1back3.emby.wtf, Emby
+HOST,pub1back5.emby.wtf, Emby
+HOST,pub1back4.emby.wtf, Emby
+HOST,pub1back6.emby.wtf, Emby
+HOST,pub1back7.emby.wtf, Emby
+HOST,pub1back7.emby.wtf, Emby
+HOST,pub1back8.emby.wtf, Emby
+HOST,pub1back9.emby.wtf, Emby
+HOST,pub1back10.emby.wtf, Emby
+HOST,pub1back11.emby.wtf, Emby
+HOST,pub1back12.emby.wtf, Emby
+HOST,pub1back13.emby.wtf, Emby
+HOST,pub1sgp.emby.wtf, Emby
+HOST,pub1cf.emby.wtf, Emby
+HOST,pub2.emby.wtf, Emby
+HOST,pub2alt.emby.wtf, Emby
+HOST,pub2sg.emby.wtf, Emby
+HOST,pub2sgalt.emby.wtf, Emby
+HOST,pub2sgalt.emby.wtf, Emby
+HOST,pub2back1.emby.wtf, Emby
+HOST,pub2back2.emby.wtf, Emby
+HOST,pub2back3.emby.wtf, Emby
+HOST,pub2back4.emby.wtf, Emby
+HOST,pub2back5.emby.wtf, Emby
+HOST,pub2back6.emby.wtf, Emby
+HOST,pub2back7.emby.wtf, Emby
+HOST,pub2back8.emby.wtf, Emby
+HOST,pub2back9.emby.wtf, Emby
+HOST,pub2back10.emby.wtf, Emby
+HOST,pub2back11.emby.wtf, Emby
+HOST,pub2back12.emby.wtf, Emby
+HOST,pub2back13.emby.wtf, Emby
+HOST,pub2sgp.emby.wtf, Emby
+HOST,pub2cf.emby.wtf, Emby
+HOST,pub3.emby.wtf, Emby
+HOST,pub3alt.emby.wtf, Emby
+HOST,pub3sg.emby.wtf, Emby
+HOST,pub3sgalt.emby.wtf, Emby
+HOST,pub3back1.emby.wtf, Emby
+HOST,pub3back2.emby.wtf, Emby
+HOST,pub3back3.emby.wtf, Emby
+HOST,pub3back4.emby.wtf, Emby
+HOST,pub3back5.emby.wtf, Emby
+HOST,pub3back6.emby.wtf, Emby
+HOST,pub3back7.emby.wtf, Emby
+HOST,pub3back8.emby.wtf, Emby
+HOST,pub3back9.emby.wtf, Emby
+HOST,pub3back10.emby.wtf, Emby
+HOST,pub3back11.emby.wtf, Emby
+HOST,pub3back12.emby.wtf, Emby
+HOST,pub3back13.emby.wtf, Emby
+HOST,pub3sgp.emby.wtf, Emby
+HOST,pub3cf.emby.wtf, Emby
+
+# 流媒体emby-Otaku体验服
+HOST,emby.otakudrive.life, Emby
+HOST,emby2.otakudrive.life, Emby
+
+# 流媒体pornemby服务器
+HOST,pornemby.club, Emby
+
+# 流媒体Odyssey服务器
+HOST,cf.odysseyplus.site, Emby
+HOST,agahk.odysseyplus.site, Emby
+HOST,agasg.odysseyplus.site, Emby
+HOST,ru.odysseyplus.site, Emby
+
+# 流媒体Exflux服务器
+HOST,line.emby.men, Emby
+
+# 流媒体TAG服务器
+HOST,emby.riches.cloud, Emby
+
+# 流媒体普拉斯影业服务器
+HOST,emby.plusmedia.site, Emby
+HOST,emby-sg.plusmedia.site, Emby
+HOST,emby-cf.plusmedia.site, Emby
+HOST,emby.xeton.dev, Emby
+HOST,jellyfin.xeton.dev, Emby
+HOST,movie.xeton.dev, Emby
+HOST,servers.xeton.dev, Emby
+
+# 流媒体卷毛鼠服务器
+HOST,jmsooo.com, Emby
+HOST,cf1.jmsooo.com, Emby
+HOST,hk.jmsooo.com, Emby
+HOST,us.jmsooo.com, Emby
+HOST,us2.jmsooo.com, Emby
