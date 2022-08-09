@@ -1,10 +1,7 @@
 # > 流媒体终点站服务器
 DOMAIN,pub1.emby.wtf
-DOMAIN,pub1cm1.emby.wtf
 DOMAIN,pub2.emby.wtf
-DOMAIN,pub2cm1.emby.wtf
 DOMAIN,pub3.emby.wtf
-DOMAIN,pub3cm1.emby.wtf
 
 # > 流媒体emby-Plus体验服
 DOMAIN,emby.plusmedia.site
@@ -32,6 +29,7 @@ DOMAIN,line.emby.men
 
 # > 流媒体TAG服务器
 DOMAIN,emby.riches.cloud
+DOMAIN,tagemby.embylianmeng.com
 
 # > 流媒体普拉斯影业服务器
 DOMAIN,emby.plusmedia.site
@@ -43,10 +41,14 @@ DOMAIN,movie.xeton.dev
 DOMAIN,servers.xeton.dev
 
 # > 流媒体卷毛鼠服务器
-DOMAIN,cf1.jmsooo.com
-DOMAIN,us.jmsooo.com
-DOMAIN,us2.jmsooo.com
-DOMAIN,us3.jmsooo.com
-DOMAIN,SG.jmsooo.com
-DOMAIN,ru.jmsooo.com
-DOMAIN,ru2.jmsooo.com
+DOMAIN,cf.jmsooo.com
+DOMAIN,ha.jmsooo.com
+
+# > 流媒体bluesea服务器
+DOMAIN,emby-pub1.blueseacdn.com
+
+# > 流媒体Misty服务器
+DOMAIN,aaa.ax
+DOMAIN,us.aaa.ax
+DOMAIN,jp.aaa.ax
+
