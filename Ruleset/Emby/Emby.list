@@ -3,17 +3,19 @@ DOMAIN,pub1.emby.wtf
 DOMAIN,pub2.emby.wtf
 DOMAIN,pub3.emby.wtf
 
-# > 流媒体emby-Plus体验服
-DOMAIN,emby.plusmedia.site
-DOMAIN,emby-cf.plusmedia.site 
-DOMAIN,emby.xeton.dev
-DOMAIN,jellyfin.xeton.dev
-DOMAIN,movie.xeton.dev
-DOMAIN,servers.xeton.dev
+# > 流媒体MisakaF
+DOMAIN,emby2.misakaf.org 
+DOMAIN,cdn2.misakaf.org 
+DOMAIN,push-kr.misakaf.org
 
-# > 流媒体emby-Otaku体验服
-DOMAIN,emby.otakudrive.life
-DOMAIN,emby2.otakudrive.life 
+# > 流媒体1111体验服
+DOMAIN,cfde.xmsl.org
+DOMAIN,line.xmsl.org
+DOMAIN,pm.xmsl.org
+DOMAIN,hd.xmsl.org
+DOMAIN,cf.xmsl.org
+DOMAIN,free.xmsl.org
+DOMAIN,krus.loseremby.org
 
 # > 流媒体pornemby服务器
 DOMAIN,pornemby.club
@@ -24,31 +26,18 @@ DOMAIN,agahk.odysseyplus.site
 DOMAIN,agasg.odysseyplus.site
 DOMAIN,ru.odysseyplus.site
 
-# > 流媒体Exflux服务器
-DOMAIN,line.emby.men
+# > 流媒体纸片人服务器
+DOMAIN,embyplus.org
 
 # > 流媒体TAG服务器
 DOMAIN,emby.riches.cloud
 DOMAIN,tagemby.embylianmeng.com
 
-# > 流媒体普拉斯影业服务器
-DOMAIN,emby.plusmedia.site
-DOMAIN,emby-sg.plusmedia.site
-DOMAIN,emby-cf.plusmedia.site
-DOMAIN,emby.xeton.dev
-DOMAIN,jellyfin.xeton.dev
-DOMAIN,movie.xeton.dev
-DOMAIN,servers.xeton.dev
-
 # > 流媒体卷毛鼠服务器
 DOMAIN,cf.jmsooo.com
 DOMAIN,ha.jmsooo.com
 
-# > 流媒体bluesea服务器
-DOMAIN,emby-pub1.blueseacdn.com
+# > 流媒体不给看服务器
+DOMAIN,t.emby.pro
 
-# > 流媒体Misty服务器
-DOMAIN,aaa.ax
-DOMAIN,us.aaa.ax
-DOMAIN,jp.aaa.ax
 
