@@ -28,6 +28,7 @@ DOMAIN,ru.odysseyplus.site
 
 # > 流媒体纸片人服务器
 DOMAIN,embyplus.org
+DOMAIN,emby.embyplus.org
 
 # > 流媒体TAG服务器
 DOMAIN,emby.riches.cloud
