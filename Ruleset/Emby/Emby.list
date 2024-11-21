@@ -30,9 +30,8 @@ DOMAIN,ru.odysseyplus.site
 DOMAIN,embyplus.org
 DOMAIN,emby.embyplus.org
 
-# > 流媒体TAG服务器
-DOMAIN,emby.riches.cloud
-DOMAIN,tagemby.embylianmeng.com
+# > 流媒体Misty服务器
+DOMAIN,misty.cx
 
 # > 流媒体卷毛鼠服务器
 DOMAIN,cf.jmsooo.com
@@ -41,4 +40,5 @@ DOMAIN,ha.jmsooo.com
 # > 流媒体不给看服务器
 DOMAIN,t.emby.pro
 
-
+# > 流媒体酥糖服务器
+st1.maoyl.us.kg
