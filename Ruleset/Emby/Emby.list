@@ -3,19 +3,11 @@ DOMAIN,pub1.emby.wtf
 DOMAIN,pub2.emby.wtf
 DOMAIN,pub3.emby.wtf
 
-# > 流媒体MisakaF
-DOMAIN,emby2.misakaf.org 
-DOMAIN,cdn2.misakaf.org 
-DOMAIN,push-kr.misakaf.org
+# > 流媒体探花tv
+DOMAIN,tanhuatv.site
 
 # > 流媒体1111体验服
-DOMAIN,cfde.xmsl.org
-DOMAIN,line.xmsl.org
-DOMAIN,pm.xmsl.org
-DOMAIN,hd.xmsl.org
 DOMAIN,cf.xmsl.org
-DOMAIN,free.xmsl.org
-DOMAIN,krus.loseremby.org
 
 # > 流媒体pornemby服务器
 DOMAIN,pornemby.club
@@ -45,3 +37,4 @@ DOMAIN,st1.maoyl.us.kg
 
 # > 流媒Nebula-Media(星云)服务器
 DOMAIN-SUFFIX,nebula-media.org
+
