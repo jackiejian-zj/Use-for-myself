@@ -1,4 +1,12 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://epg-1.iill.top/i/389332409&douyin&logo" group-title="•抖音「游戏」",秋日丶
 https://live.iill.top/douyin/389332409
+#EXTINF:-1 tvg-logo="https://epg-1.iill.top/i/cxjsdlqm0411&douyin&logo" group-title="•抖音「其他」",从小就是大连球迷
+https://live.iill.top/douyin/cxjsdlqm0411
+#EXTINF:-1 tvg-logo="https://epg-1.iill.top/i/1282428094&douyin&logo" group-title="•抖音「其他」",说实话不让上传
+https://live.iill.top/douyin/1282428094
+#EXTINF:-1 tvg-logo="https://epg-1.iill.top/i/dltygb&douyin&logo" group-title="•抖音「其他」",大连体育广播
+https://live.iill.top/douyin/dltygb
+#EXTINF:-1 tvg-logo="https://epg-1.iill.top/i/fuchen10571007&douyin&logo" group-title="•抖音「其他」",足球评论员福晨
+https://live.iill.top/douyin/fuchen10571007
 
