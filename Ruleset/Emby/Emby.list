@@ -23,8 +23,10 @@ DOMAIN,ru.odysseyplus.site
 DOMAIN,embyplus.org
 DOMAIN,stream.embyplus.org
 
-# > 流媒体Misty服务器
-DOMAIN,misty.cx
+# > 流媒体大v服务器
+DOMAIN,su.viclub.top
+DOMAIN,cc.viclub.top
+DOMAIN,jp.viclub.top
 
 # > 流媒体卷毛鼠服务器
 DOMAIN,cf.jmsooo.com
@@ -38,6 +40,7 @@ DOMAIN,ch.feiyue.lol
 
 # > 流媒Nebula-Media(星云)服务器
 DOMAIN-SUFFIX,nebula-media.org
+
 
 
 
