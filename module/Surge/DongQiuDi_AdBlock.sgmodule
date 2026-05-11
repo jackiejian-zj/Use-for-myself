@@ -1,0 +1,69 @@
+#!name = 懂球帝去广告
+#!desc = 去除懂球帝 App 的开屏广告、信息流广告、弹窗广告及第三方广告 SDK
+#!system = ios
+#!author = Claude
+#!version = 1.0.0
+#!homepage = https://claude.ai
+
+# ==============================
+# 规则说明：
+# 1. 拦截懂球帝自有广告平台请求
+# 2. 拦截第三方广告 SDK（穿山甲、Mintegral、腾讯广告、百度广告等）
+# 3. 使用 URL Rewrite 将广告接口响应替换为空，避免 App 崩溃
+# 4. 需要在 Surge 中开启 MitM 并将 dongqiudi.com 加入解密域名
+# ==============================
+
+[Rule]
+# 懂球帝自有广告接口
+DOMAIN,adm.dongqiudi.com,REJECT
+DOMAIN-SUFFIX,ad.dongqiudi.com,REJECT
+
+# 穿山甲广告 SDK（字节跳动）
+DOMAIN-SUFFIX,pangolin.snssdk.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,ad.toutiao.com,REJECT
+DOMAIN-SUFFIX,dig.bdurl.net,REJECT
+DOMAIN-SUFFIX,pull.yximgs.com,REJECT
+
+# Mintegral 广告 SDK
+DOMAIN-SUFFIX,mintegral.com,REJECT
+DOMAIN-SUFFIX,mbridge.com,REJECT
+DOMAIN-SUFFIX,mtg.be,REJECT
+
+# 腾讯广告 SDK（GDT）
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,e.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,ugdtm.qq.com,REJECT
+DOMAIN-SUFFIX,mi.gdt.qq.com,REJECT
+
+# 百度广告 SDK
+DOMAIN-SUFFIX,mbd.baidu.com,REJECT
+DOMAIN-SUFFIX,mssp.baidu.com,REJECT
+
+# 快手广告 SDK
+DOMAIN-SUFFIX,ad.gifshow.com,REJECT
+DOMAIN-SUFFIX,ad.kuaishou.com,REJECT
+
+# Unity 广告 SDK
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+DOMAIN-SUFFIX,auction.unityads.unity3d.com,REJECT
+
+# ironSource / Applovin
+DOMAIN-SUFFIX,mediation.ironsrc.com,REJECT
+DOMAIN-SUFFIX,applovin.com,REJECT
+
+# 通用广告追踪与统计（不影响正常功能）
+DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN-SUFFIX,pg.umeng.com,REJECT
+
+[URL Rewrite]
+# 拦截懂球帝 App 内广告配置接口，返回空 JSON 避免崩溃
+^https?://api\.dongqiudi\.com/.*[Aa]d.* _ reject-200
+^https?://api\.dongqiudi\.com/.*[Bb]anner.* _ reject-200
+^https?://api\.dongqiudi\.com/.*[Ss]plash.* _ reject-200
+^https?://api\.dongqiudi\.com/.*[Pp]op.* _ reject-200
+^https?://adm\.dongqiudi\.com/ _ reject
+
+[MITM]
+# 需要 MitM 解密以下域名，用于 URL Rewrite 规则生效
+hostname = %APPEND% api.dongqiudi.com, adm.dongqiudi.com
