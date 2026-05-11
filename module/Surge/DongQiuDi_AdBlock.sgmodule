@@ -1,66 +1,56 @@
 #!name = 懂球帝去广告
-#!desc = 去除懂球帝开屏广告、信息流广告、弹窗广告，无需 JS 脚本
+#!desc = 去除懂球帝开屏广告、信息流广告、弹窗广告
 #!system = ios
 #!author = Claude
-#!version = 3.0.0
+#!version = 3.2.0
 
 [URL Rewrite]
-# ---- 开屏 / 启动广告配置（dongdianqiu.com 为实际域名）----
+# 开屏 / 启动广告
 ^https?://api\.dongdianqiu\.com/app/(init|config|launch|setting|boot) _ reject-200
 ^https?://api\.dongqiudi\.com/app/(init|config|launch|setting|boot) _ reject-200
 
-# ---- 通用广告接口（模糊匹配广告关键词）----
-^https?://api\.dongdianqiu\.com/.*[Aa]d[s]?[/_] _ reject-200
-^https?://api\.dongdianqiu\.com/.*[Bb]anner _ reject-200
-^https?://api\.dongdianqiu\.com/.*[Ss]plash _ reject-200
-^https?://api\.dongdianqiu\.com/.*[Pp]op[Uu]p _ reject-200
-^https?://api\.dongdianqiu\.com/.*[Oo]pen[_-]?[Ss]creen _ reject-200
-^https?://api\.dongdianqiu\.com/.*[Ii]nterstitial _ reject-200
-^https?://api\.dongdianqiu\.com/.*[Ff]loat _ reject-200
-^https?://api\.dongqiudi\.com/.*[Aa]d[s]?[/_] _ reject-200
-^https?://api\.dongqiudi\.com/.*[Bb]anner _ reject-200
-^https?://api\.dongqiudi\.com/.*[Ss]plash _ reject-200
-^https?://api\.dongqiudi\.com/.*[Pp]op[Uu]p _ reject-200
+# 通用广告接口关键词匹配
+^https?://api\.dongdianqiu\.com/.*([Aa]ds?|[Bb]anner|[Ss]plash|[Pp]opup|[Oo]pen.?[Ss]creen|[Ff]loat).* _ reject-200
+^https?://api\.dongqiudi\.com/.*([Aa]ds?|[Bb]anner|[Ss]plash|[Pp]opup).* _ reject-200
 
 [Rule]
-# ---- 懂球帝自有广告平台 ----
+# 懂球帝广告平台
 DOMAIN,adm.dongdianqiu.com,REJECT
 DOMAIN-SUFFIX,ad.dongdianqiu.com,REJECT
 DOMAIN,adm.dongqiudi.com,REJECT
 DOMAIN-SUFFIX,ad.dongqiudi.com,REJECT
 
-# ---- 穿山甲 / 字节跳动广告 ----
+# 穿山甲
 DOMAIN-SUFFIX,pangolin.snssdk.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,ad.toutiao.com,REJECT
 
-# ---- Mintegral ----
+# Mintegral
 DOMAIN-SUFFIX,mintegral.com,REJECT
 DOMAIN-SUFFIX,mbridge.com,REJECT
 
-# ---- 腾讯广告 GDT ----
+# 腾讯广告 GDT
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,e.gdt.qq.com,REJECT
 DOMAIN-SUFFIX,mi.gdt.qq.com,REJECT
 
-# ---- 百度广告 ----
+# 百度广告
 DOMAIN-SUFFIX,mbd.baidu.com,REJECT
 DOMAIN-SUFFIX,mssp.baidu.com,REJECT
 
-# ---- 快手广告 ----
+# 快手广告
 DOMAIN-SUFFIX,ad.gifshow.com,REJECT
 DOMAIN-SUFFIX,ad.kuaishou.com,REJECT
 
-# ---- Unity / ironSource / AppLovin ----
+# Unity / ironSource / AppLovin
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,mediation.ironsrc.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
 
-# ---- TopOn 广告聚合 ----
+# TopOn
 DOMAIN-SUFFIX,topon.com,REJECT
 DOMAIN-SUFFIX,toponad.com,REJECT
 
 [MITM]
-# URL Rewrite 需要 MitM 解密 HTTPS 流量
 hostname = %APPEND% api.dongdianqiu.com, api.dongqiudi.com
