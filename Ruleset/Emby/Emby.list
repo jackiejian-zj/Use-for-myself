@@ -22,6 +22,8 @@ DOMAIN,ru.odysseyplus.site
 # > 流媒体纸片人服务器
 DOMAIN,embyplus.org
 DOMAIN,stream.embyplus.org
+DOMAIN,v2.embyplus.org
+
 
 # > 流媒体大v服务器
 DOMAIN,su.viclub.top
