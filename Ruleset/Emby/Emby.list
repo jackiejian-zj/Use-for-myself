@@ -20,7 +20,7 @@ DOMAIN,agasg.odysseyplus.site
 DOMAIN,ru.odysseyplus.site
 
 # > 流媒体纸片人服务器
-DOMAIN,embyplus.org
+DOMAIN-SUFFIX,embyplus.org
 DOMAIN,stream.embyplus.org
 ## DOMAIN,v2.embyplus.org
 
